@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generate_JWT_Token", "Gener
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization_Using_JWT_Tokens", "Authorization_Using_JWT_Tokens\Authorization_Using_JWT_Tokens.csproj", "{656AEB2A-9A01-4B15-BC88-34CE9742C134}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cookie_Authentication", "Cookie_Authentication\Cookie_Authentication.csproj", "{5A86AAB6-4BCB-4DF4-8CAF-6F1A92133FA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cookie_Authentication", "Cookie_Authentication\Cookie_Authentication.csproj", "{5A86AAB6-4BCB-4DF4-8CAF-6F1A92133FA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAndClaims", "UserAndClaims\UserAndClaims.csproj", "{1BF1AA3E-E26C-48F0-BCA7-3EB0C55FDF5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5A86AAB6-4BCB-4DF4-8CAF-6F1A92133FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A86AAB6-4BCB-4DF4-8CAF-6F1A92133FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A86AAB6-4BCB-4DF4-8CAF-6F1A92133FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF1AA3E-E26C-48F0-BCA7-3EB0C55FDF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF1AA3E-E26C-48F0-BCA7-3EB0C55FDF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF1AA3E-E26C-48F0-BCA7-3EB0C55FDF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF1AA3E-E26C-48F0-BCA7-3EB0C55FDF5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
