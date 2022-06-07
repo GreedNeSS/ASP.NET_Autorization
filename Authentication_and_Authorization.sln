@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Claim_and_ClaimsPrincipal",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization_By_Roles", "Authorization_By_Roles\Authorization_By_Roles.csproj", "{29F4898A-B2D5-40A6-9643-8E73BB98D192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization_by_Claims", "Authorization_by_Claims\Authorization_by_Claims.csproj", "{AEE38239-716E-4930-B1A8-647B9FC36151}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization_by_Claims", "Authorization_by_Claims\Authorization_by_Claims.csproj", "{AEE38239-716E-4930-B1A8-647B9FC36151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomPolicy", "CustomPolicy\CustomPolicy.csproj", "{9948D378-B22D-4724-AB67-8860313F7E17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{AEE38239-716E-4930-B1A8-647B9FC36151}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEE38239-716E-4930-B1A8-647B9FC36151}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEE38239-716E-4930-B1A8-647B9FC36151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9948D378-B22D-4724-AB67-8860313F7E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9948D378-B22D-4724-AB67-8860313F7E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9948D378-B22D-4724-AB67-8860313F7E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9948D378-B22D-4724-AB67-8860313F7E17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
